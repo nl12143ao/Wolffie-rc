@@ -1,9 +1,11 @@
 {
-  "watch": ["src", "server.js"],
+  "_comment": "Edit on watch watch ["src", "server.js"]",
+  "watch": ["core", "modules", "config", "server.js"],
   "ext": "js,json",
-  "ignore": ["src/**/*.test.js", "node_modules"],
+  "ignore": ["**/*.test.js", "node_modules"],
   "exec": "node server.js",
   "env": {
     "NODE_ENV": "development"
   }
 }
+  
