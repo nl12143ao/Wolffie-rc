@@ -1,4 +1,5 @@
 ﻿git status 
+git check-ignore -v "scripts/NPM=Run Server App.ps1"
 
 # 1. Backend packages installeren
 cd "C:\_WOLFFIE\_WOLFFIE-RC\server"
