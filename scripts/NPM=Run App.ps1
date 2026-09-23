@@ -9,16 +9,8 @@ npm list --depth=0
 npm run dev
 
 
+http://localhost:5173/settings
 
 
-
-# 2. Test de auth/me endpoint
-Invoke-RestMethod -Uri "http://localhost:3009/api/auth/me" -Method Get
-
-# 1. Test de status van de API
-Invoke-RestMethod -Uri "http://localhost:3009/api/status" -Method Get
-
-# 2. Test de auth/me endpoint
-Invoke-RestMethod -Uri "http://localhost:3009/api/auth/me" -Method Get
 
 

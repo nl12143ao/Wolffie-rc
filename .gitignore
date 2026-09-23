@@ -18,6 +18,7 @@ logs/
 .env
 .env.local
 .env.*.local
+*token*
 
 # 5. OS & Editor specifieke bestanden
 .DS_Store

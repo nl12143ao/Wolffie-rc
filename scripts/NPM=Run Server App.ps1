@@ -1,17 +1,20 @@
-﻿git status 
-git check-ignore -v "scripts/NPM=Run Server App.ps1"
+﻿
+cd "C:\_WOLFFIE\_WOLFFIE-RC\server"
 
 # 1. Backend packages installeren
-cd "C:\_WOLFFIE\_WOLFFIE-RC\server"
-npm install
+cd "server"
+npm install --verbose #Install dependencies 
+npm audit 
+Test-Path "C:\_WOLFFIE\_WOLFFIE-RC\server\node_modules"
 
-cd "C:\_WOLFFIE\_WOLFFIE-RC\server"
 npm run dev
 
 
 # 2. Frontend packages installeren
 cd "C:\_WOLFFIE\_WOLFFIE-RC\my-app"
-npm install
-
-cd "C:\_WOLFFIE\_WOLFFIE-RC\my-app"
+npm install --verbose #Install dependencies 
 npm run dev
+
+
+taskkill /F /IM node.exe
+Get-Process -Name "node" -ErrorAction SilentlyContinue
