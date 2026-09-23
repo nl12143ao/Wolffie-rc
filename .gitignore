@@ -1,0 +1,31 @@
+
+# 1. NPM / Node Dependencies (alle node_modules mappen)
+node_modules/
+**/node_modules/
+
+# 2. Build output (gecompileerde Vue frontend)
+dist/
+**/dist/
+
+# 3. Runtime data & SQLite databases
+data/
+logs/
+*.db
+*.db-journal
+*.sqlite
+
+# 4. Omgevings variabelen & geheimen (API keys, wachtwoorden)
+.env
+.env.local
+.env.*.local
+
+# 5. OS & Editor specifieke bestanden
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 6. Logbestanden van NPM/Yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
