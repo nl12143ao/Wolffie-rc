@@ -1,5 +1,5 @@
 {
-  "_comment": "Edit on watch watch ["src", "server.js"]",
+  "_comment": "Edit on watch watch ["src", "server.js"] ",
   "watch": ["core", "modules", "config", "server.js"],
   "ext": "js,json",
   "ignore": ["**/*.test.js", "node_modules"],
