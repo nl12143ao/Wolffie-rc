@@ -29,3 +29,14 @@ columns.forEach(col => {
 });
 
 db.close();
+
+/**
+Jouw project gebruikt better-sqlite3 als database-driver. 
+Omdat dat pakket al netjes in de node_modules van je project staat, 
+draaien al je eigen scripts en migraties (zoals je voorbeeld hierboven) daar vlekkeloos op 
+zonder dat je iets extra's hoeft te installeren.
+
+Als je nu snel en veilig de inhoud van je tabellen wilt inzien met datzelfde better-sqlite3, 
+dan kun je in een nieuw scriptje (db-inspect.cjs) exact dezelfde stijl aanhouden:
+
+*/
