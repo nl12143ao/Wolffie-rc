@@ -1,0 +1,14 @@
+{
+  "name": "wolffie-energy",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "demo:entso": "node demo-entso.js",
+    "demo:fraunhofer": "node demo-fraunhofer.js"
+  },
+  "dependencies": {
+    "entsoe-api-client": "^2.0.0"
+  }
+}
